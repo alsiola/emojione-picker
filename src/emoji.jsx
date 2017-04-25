@@ -19,7 +19,7 @@ export default class Emoji extends Component {
   }
 
   createMarkup() {
-    return { __html: emojione.shortnameToImage(this.props.shortname) };
+    return { __html: emojione.shortnameToUnicode(this.props.shortname) };
   }
 
   _handleKeyUp = ev => {
