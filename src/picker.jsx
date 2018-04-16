@@ -23,7 +23,8 @@ export default class Picker extends Component {
     searchPlaceholder: PropTypes.string,
     className: PropTypes.string,
     onChange: PropTypes.func.isRequired,
-    categories: PropTypes.object
+    categories: PropTypes.object,
+    onClick: PropTypes.func
   };
 
   static defaultProps = {
